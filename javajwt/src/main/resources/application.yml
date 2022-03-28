@@ -1,0 +1,18 @@
+jwt: 
+  secret: 'mmfgfgjs0t99f34949ed-ogd=r0=w-443-3-'
+
+server:
+   port:8081
+   
+spring:
+   datasource:
+      url: jdbc:mariadb://localhost:3306/javajwt
+      password: jwtjava123
+      username: root 
+      #javajwt
+jpa:
+   show-sql: true
+   hibernate:
+      ddl-auto: create
+   properties:
+      hibernate-dialect: org.hibernate.dialect.Mysql8Dialect          
