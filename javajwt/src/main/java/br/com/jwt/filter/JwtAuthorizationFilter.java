@@ -23,6 +23,7 @@ public class JwtAuthorizationFilter extends OncePerRequestFilter {
     JwtTokenProvider jwtTokenProvider;
 
     JwtAuthorizationFilter(JwtTokenProvider jwtTokenProvider){
+
         this.jwtTokenProvider = jwtTokenProvider;
     }
 
